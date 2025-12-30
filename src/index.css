@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components{
+    .btn{
+        @apply inline-flex items-center justify-center px-4 py-2 bg-blue-500 text-white rounded-2xl 
+        hover:bg-blue-600 hover:shadow-[0_0_15px_blue] hover:shadow-blue-300 hover:scale-[1.02] 
+        
+        ;
+    }
+}
+
