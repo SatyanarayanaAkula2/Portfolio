@@ -103,8 +103,8 @@ export default function Hero(){
                         </p>
                     </div>
                     <div className="btns flex flex-wrap pt-10 gap-10">
-                        <button className="btn">Download Resume </button>
-                        <button className="btn">Contact Me</button>
+                        <button className="btn"><a href="src/assets/satyanarayana_resume.pdf" download="">Download Resume</a> </button>
+                        <button className="btn"><a href="#Contact">Contact Me</a></button>
                     </div>
                 </div>
                 <div className='hero_right'>
