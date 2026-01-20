@@ -59,7 +59,7 @@ const Projects=()=>{
   }, [currentIndex, projects.length]);
 
     return(
-        <section className='projects py-16 relative items-center  '>
+        <section id='Projects' className='projects py-16 relative items-center scroll-mt-20 '>
             <div className="font-bold text-center text-3xl mb-10">
                 <h1>My Work</h1>
             </div>
@@ -73,13 +73,15 @@ const Projects=()=>{
         </button>
 
         
-        <div className="relative w-[50%] sm:w-[60%] md:w-[50%] lg:w-[45%] overflow-hidden">
+        <div className="relative   w-[50%] sm:w-[60%] md:w-[50%] lg:w-[45%] overflow-hidden">
+          
           <div
             ref={sliderRef}
             className="flex transition-transform duration-500"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
                 <div className="min-w-full flex justify-center">
+                  
                     <ProjectCard {...projects[projects.length-1]} />
                 </div> 
             {projects.map((project, index) => (

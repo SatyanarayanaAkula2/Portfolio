@@ -35,3 +35,10 @@
 .read-the-docs {
   color: #888;
 } */
+
+.skillcard,.about,.code_platform,.certify_card{
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  animation-fill-mode: both;
+  will-change: tranform,opacity,filter;
+}
