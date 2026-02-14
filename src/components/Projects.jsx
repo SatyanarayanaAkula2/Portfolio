@@ -73,7 +73,7 @@ const Projects=()=>{
         </button>
 
         
-        <div className="relative   w-[50%] sm:w-[60%] md:w-[50%] lg:w-[45%] overflow-hidden">
+        <div className="relative   w-[50%]  md:w-[50%] lg:w-[45%] overflow-hidden">
           
           <div
             ref={sliderRef}

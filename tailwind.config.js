@@ -26,6 +26,7 @@ export default {
           '0%':{opacity:0,transform:'translateY(40px) scale(0.96)',filter:'blur(6px)'},
           '100%':{opacity:1,transform:'translateY(0) scale(1)',filter:'blur(0)'}
         },
+
         
       },
 
@@ -35,7 +36,7 @@ export default {
         'right':'slideright 1.2s linear both',
         'spin-slow':'spin 3s linear infinite',
         'appearance':'appearance 1.2s linear both',
-        
+        'navright':'slideright 0.3s linear both'
       }
       
     },

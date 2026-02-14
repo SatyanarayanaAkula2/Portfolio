@@ -43,7 +43,7 @@ export default function Navbar(){
             <button className="md:hidden pr-8 relative" onClick={()=>setopen(!open)}>{open?<X size={28}/>:<Menu size={28}/>}</button>
                 
                 {open && (
-        <ul className="md:hidden w-[200px] flex flex-col items-center gap-6 pb-6 bg-blue-50 shadow-lg absolute top-16 right-10">
+        <ul className="md:hidden w-[200px] animate-navright flex flex-col items-center gap-6 pb-6 bg-blue-50 shadow-lg absolute top-16 right-10">
           {links.map((item) => (
             <li key={item}>
               <a

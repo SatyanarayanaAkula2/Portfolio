@@ -13,39 +13,39 @@ function Certfications(){
             color:'blue'
         },
         {
-            title:'Data Analytics Job Simulation',
+            title:'TCS iON Career Edge - Young Professional',
             logo:'src/assets/deloitte.jpg',
             link:'',
-            completion:'June,2025',
-            skills:'Data Analysis using Tableau and Excel',
-            issuer:'Deloitte',
+            completion:'May,2025',
+            skills:'Soft Skills',
+            issuer:'TCS iON',
             color:'green'
         },
         {
-            title:'Data Analytics Job Simulation',
+            title:'Introduction to Machine Learning',
             logo:'src/assets/deloitte.jpg',
             link:'',
-            completion:'June,2025',
-            skills:'Data Analysis using Tableau and Excel',
-            issuer:'Deloitte',
+            completion:'Sep,2024',
+            skills:'Machine Learning',
+            issuer:'IIT Kharagpur',
             color:'orange'
         },
         {
-            title:'Data Analytics Job Simulation',
+            title:'Angular',
             logo:'src/assets/deloitte.jpg',
             link:'',
             completion:'June,2025',
-            skills:'Data Analysis using Tableau and Excel',
-            issuer:'Deloitte',
+            skills:'Angular Web Framework',
+            issuer:'Infosys Springboard',
             color:'yellow'
         },
         {
-            title:'Data Analytics Job Simulation',
+            title:'JavaScript',
             logo:'src/assets/deloitte.jpg',
             link:'',
             completion:'June,2025',
-            skills:'Data Analysis using Tableau and Excel',
-            issuer:'Deloitte',
+            skills:'JavaScript Scripting Language',
+            issuer:'Infosys Springboard',
             color:'blue'
         }
     ]
