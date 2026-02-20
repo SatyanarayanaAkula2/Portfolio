@@ -14,7 +14,7 @@ function Certfications(){
         },
         {
             title:'TCS iON Career Edge - Young Professional',
-            logo:'src/assets/deloitte.jpg',
+            logo:'src/assets/tcsion.jpg',
             link:'',
             completion:'May,2025',
             skills:'Soft Skills',
@@ -23,7 +23,7 @@ function Certfications(){
         },
         {
             title:'Introduction to Machine Learning',
-            logo:'src/assets/deloitte.jpg',
+            logo:'src/assets/nptel.jpg',
             link:'',
             completion:'Sep,2024',
             skills:'Machine Learning',
@@ -32,7 +32,7 @@ function Certfications(){
         },
         {
             title:'Angular',
-            logo:'src/assets/deloitte.jpg',
+            logo:'src/assets/springboard.jpg',
             link:'',
             completion:'June,2025',
             skills:'Angular Web Framework',
@@ -41,7 +41,7 @@ function Certfications(){
         },
         {
             title:'JavaScript',
-            logo:'src/assets/deloitte.jpg',
+            logo:'src/assets/springboard.jpg',
             link:'',
             completion:'June,2025',
             skills:'JavaScript Scripting Language',
