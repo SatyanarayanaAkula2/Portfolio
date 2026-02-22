@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav
       id="navbar"
-      className="navbar fixed top-0 left-0 w-full z-50 flex items-center lg:px-24 h-20 bg-blue-50 backdrop-blur-md text-slate-700"
+      className="navbar sticky top-0 left-0 w-full z-50 flex items-center lg:px-24 h-20 bg-blue-50 backdrop-blur-md text-slate-700"
     >
       {/* Logo */}
       <div className="heading flex flex-1">

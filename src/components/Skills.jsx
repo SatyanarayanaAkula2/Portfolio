@@ -28,7 +28,7 @@ export default function Skills(){
     const skillset=[
         {
             title:'Frontend',
-            image:"/src/assets/frontend.png",
+            image:"assets/frontend.png",
             skills:[
                 {name:'HTML',icon:FaHtml5,color:'#E34F26'},
                 {name:'CSS',icon:FaCss3Alt,color:'#1572B6'},
@@ -39,7 +39,7 @@ export default function Skills(){
         },
         {
             title:'Backend',
-            image:'/src/assets/frontend.png',
+            image:'assets/frontend.png',
             skills:[
                 {name:'NodeJs',icon:FaNodeJs,color:'#339933'},
                 {name:'ExpressJs',icon:SiExpress,color:'#000000'},
@@ -50,7 +50,7 @@ export default function Skills(){
         },
         {
             title:'AI Tools',
-            image:'/src/assets/frontend.png',
+            image:'assets/frontend.png',
             skills:[
                 {name:'ScikitLearn',icon:SiScikitlearn,color:'#F7931E'},
                 {name:'TensorFlow',icon:SiTensorflow,color:'#FF6F00'},
@@ -61,7 +61,7 @@ export default function Skills(){
         },
         {
             title:'CS Fundamentals',
-            image:'/src/assets/frontend.png',
+            image:'assets/frontend.png',
             skills:[
                 {name:'OOPS',},
                 {name:'DSA',},
@@ -71,7 +71,7 @@ export default function Skills(){
         },
         {
             title:'Tools',
-            image:'/src/assets/frontend.png',
+            image:'assets/frontend.png',
             skills:[
                 {name:'VS Code',icon:'',color:'#007ACC'},
                 {name:'Git',icon:FaGit,color:'#F05032'}

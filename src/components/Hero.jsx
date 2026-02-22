@@ -103,12 +103,12 @@ export default function Hero(){
                         </p>
                     </div>
                     <div className="btns flex flex-wrap justify-center pt-10 gap-4 sm:gap-10">
-                        <button className="btn"><a href="src/assets/satyanarayana_resume.pdf" download="">Download Resume</a> </button>
+                        <button className="btn"><a href="assets/satyanarayana_resume.pdf" download="">Download Resume</a> </button>
                         <button className="btn"><a href="#Contact">Contact Me</a></button>
                     </div>
                 </div>
                 <div className='hero_right flex justify-center w-full lg:w-auto min-w-0'>
-                        <img src='src/assets/hero_image.jpg' className='h-[300px] w-full max-w-[350px] object-cover rounded-xl'/>
+                        <img src='assets/hero_image.jpg' className='h-[300px] w-full max-w-[350px] object-cover rounded-xl'/>
                 </div>
             </section>
             

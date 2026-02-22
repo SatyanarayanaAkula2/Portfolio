@@ -7,7 +7,7 @@ export default function Projects() {
   const projects = [
     {
       title: "Movie Recommendation App",
-      image: "src/assets/frontend.png",
+      image: "assets/frontend.png",
       description:
         "An AI-powered movie recommendation app that suggests films based on user preferences with a conversational chat interface.",
       tech: ["Python", "Streamlit", "LangChain", "Prompt Engineering"],
@@ -19,7 +19,7 @@ export default function Projects() {
     },
     {
       title: "Portfolio Website",
-      image: "src/assets/frontend.png",
+      image: "assets/frontend.png",
       description:
         "A responsive portfolio built with React and Tailwind showcasing projects and skills.",
       tech: ["React", "Tailwind", "JavaScript"],

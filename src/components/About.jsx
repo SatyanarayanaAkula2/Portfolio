@@ -10,7 +10,7 @@ export default function About(){
 
             <div className='about animate-left  grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
                 <div className='flex justify-center'>
-                    <img src='src/assets/frontend.png'/>
+                    <img src='assets/frontend.png'/>
                 </div>
 
                 <div className='about animate-right   md:w-3/4 text-l border bg-blue-500/20 backdrop-blur-md border-blue-200/30 shadow-md hover:translate-y-1 hover:shadow-xl transition-all duration-300 p-16 m-4 rounded-xl'>
