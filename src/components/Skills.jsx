@@ -82,7 +82,7 @@ export default function Skills(){
         <section id='Skills' className="skills scroll-mt-20 bg-blue-50 pb-20 ">
            <h1 className="text-center py-12 font-semibold text-2xl text-slate-800">Skills</h1>
 
-            <div className="px-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+            <div className=" px-8 lg:px-20 grid grid-cols-1 lg:grid-cols-3 gap-8 justify-center">
           
                   {
                     skillset.map((set,index)=>(

@@ -54,7 +54,7 @@ function Certfications(){
         <div className=" font-bold py-6 text-center text-3xl">
             <p>My Certifications</p>
         </div>
-        <div className='main  py-16 px-20 justify-items-center  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12'>
+        <div className='main  py-16 px-8 sm:px-20 justify-items-center  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12'>
             {
                 certifications.map((certification,key)=>(
                     <CertificationCard title={certification.title} logo={certification.logo} link={certification.link} completion={certification.completion} skills={certification.skills}  issuer={certification.issuer} color={certification.color} id={key} />

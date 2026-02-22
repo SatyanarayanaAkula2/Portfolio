@@ -11,11 +11,11 @@ export default {
         },
       keyframes:{
         slideleft:{
-          '0%':{transform:'translateX(-160px) scale(0.9) rotateY(8deg)', filter:'blur(6px)',opacity:'0'},
+          '0%':{transform:'translateX(-40px) scale(0.95) rotateY(8deg)', filter:'blur(6px)',opacity:'0'},
           '100%':{transform:'translateX(0) scale(1) rotateY(0)',filter:"blur(0)",opacity:'1'},
         },
         slideright:{
-          '0%':{transform:'translateX(160px) scale(0.9) rotateY(-8deg)',filter:'blur(6px)',opacity:'0'},
+          '0%':{transform:'translateX(40px) scale(0.95) rotateY(-8deg)',filter:'blur(6px)',opacity:'0'},
           '100%':{transform:'translateX(0) scale(1) rotateY(0)',filter:"blur(0)",opacity:'1'},
         },
         slideup:{
